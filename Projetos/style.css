@@ -1,0 +1,161 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Estilos para a navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos para as seções com imagem da barbearia */
+.section-with-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #222;
+}
+
+.image-container {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.text-container {
+    flex: 1;
+    color: #fff;
+}
+
+/* Estilos para os botões de chamada para ação (CTA) */
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Estilos para as seções com divisões visuais */
+.section-divider {
+    padding: 40px;
+    border-bottom: 1px solid #444;
+}
+
+
+
+/* Estilos para a seção de Serviços em formato de blocos */
+.service-blocks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service {
+    flex: 1;
+    background-color: #222;
+    border: 2px solid #fff;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.service h3 {
+    color: #fff;
+}
+
+
+/* Estilos para a seção de Contato com mapa */
+.contact-map {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-info {
+    flex: 1;
+    color: #fff;
+    padding: 40px;
+}
+
+.contact-info h2 {
+    font-size: 24px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.whatsapp-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.whatsapp-link img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.map-container {
+    flex: 1;
+}
+
+.map-container img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+/* ... (códigos anteriores) ... */
+
+
+/* Estilos para o rodapé */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
